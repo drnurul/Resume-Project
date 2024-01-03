@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins";
+}
+.resume {
+  display: grid;
+  grid-template-columns: 300px auto;
+  max-width: 800px;
+  margin: auto;
+  box-shadow: 0px 0px 3px 1px lightgray;
+  padding: 20px;
+  column-gap: 50px;
+  border: 2px solid gray;
+}
+/* resume left Section Style*/
+.left-div h2 {
+  color: #ffffff;
+}
+p {
+  color: #807865;
+}
+.left-hr {
+  height: 2px;
+  background: white;
+}
+
+.left-div {
+  float: left;
+  margin-right: 20px;
+  width: 300px;
+}
+/*--Top Secion style--*/
+.top-div {
+  background-color: #5271ff;
+  color: white;
+  padding: 20px;
+}
+
+.profile-pic {
+  display: flex;
+  justify-content: center;
+}
+/*--Profile pic style--*/
+.profile-pic img {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  overflow: hidden;
+}
+.name, .designation h3, h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+/*--Profile contact style--*/
+.profile {
+  background-color: #3c4240;
+  color: white;
+  background-color: #3c4240;
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.contact {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.contact h2 {
+  display: flex;
+  gap: 8px;
+}
+.contact-det {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+/*--Skills style--*/
+.skills {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.skill-head {
+  display: flex;
+  gap: 8px;
+}
+.skill-list {
+  list-style-type: none;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+/*--Certificates style--*/
+.certificates {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.cert-list {
+  list-style-type: none;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+/*------------Right Section----------*/
+.details {
+  overflow: hidden;
+  padding-right: 20px;
+}
+.details h2 {
+  color: #5271ff;
+  text-transform: uppercase;
+}
+
+/*--Object+Project+Education Section style--*/
+.obj-para {
+  padding-top: 10px;
+}
+.work-exp {
+  padding-top: 20px;
+}
+
+.details hr {
+  height: 2px;
+  background: black;
+}
+.name-date {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.role {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.company {
+  padding-left: 40px;
+}
+.job-des {
+  padding-left: 40px;
+}
